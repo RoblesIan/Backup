@@ -1,0 +1,37 @@
+Curso de programación basado en Python.
+Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la 
+legibilidad de su código. Es multiparadigma, soporta parcialmente programación orientada
+a objetos, programación imperativa y, en menor medida, programación funcional. Es un 
+lenguaje interpretado, dinámico y multiplataforma. Posee licencia de código abierto.
+
+Python fue creado a finales de los años ochenta por Guido van Rossum en Stichting Mathematisch
+Centrum (CWI), en Países Bajos, como un sucesor del lenguaje de programación ABC, capaz de 
+manejar excepciones e interactuar con el sistema operativo Amoeba.
+
+El nombre hace referencia a los humoristas Monty Python.
+
+Dependiendo del sistema operativo podriamos elegir nuestra opción de instalación en https://www.python.org/downloads/
+Y para editor de código utilizaremos https://code.visualstudio.com/
+Para el control de versiones usaremos el famoso sistema GIT. 
+
+1. Primeros pasos, definición, características, editor de codigo, instalacion de python, utilizacion de los comentarios
+2. Variables y tipos. Crear variables, como utilizarlas, que tipos de datos hay, como convertir tipos de datos a otros.
+3. operadores. Operadores arigméticos, operadores de asignación, operadores de comparación, operadores matemáticos
+4. Entrada y salida de datos. Introducir datos de teclado, y salida por pantalla.
+5. Estructuras de control. Condicionales, operadores de comparacion, estructura de comparacion, uso de estructura de control elif, estructuras anidadas, definicion de anidacion
+6. Bucles. for, while.
+7. Bloque de ejercicios 1. 
+8. Funciones. Crear. Parametros. Return. Llamarlas. Funciones lambda. Funciones locales y globales.
+9. Listas y tuplas. Listas multidimencionales, funciones para manipularlas. 
+10. Diccionarios y sets. Diccionarios dentro de listas.
+11. Bloque de ejercicios 2.
+12. Módulos y paquetes. Que son, creacion, instalacion de paquetes externos. Uso.
+13. Sistema de archivos y directorios. Crear, editar, mover y eliminar archivos. Manipulacion
+14. Manejo de errores, estructura de control Try. 
+15. POO. Conceptos fundamentales. Uso de clases y objetos, getters, setters, constructor, visibilidad de atributos y metodos, herencia.
+16. Bases de datos y uso de SQLite.
+17. Bases de datos MySQL, paquete, mysql-connector-python, manipulacion de base de datos mysql.
+18. Proyecto app de consola, con uso de todo lo aprendido. 
+19. Interfaces gráficas con Tkinter. 
+20. Desarrollo Web con Django y Flask.
+

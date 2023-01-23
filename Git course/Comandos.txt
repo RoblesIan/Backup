@@ -35,3 +35,4 @@ cat archivox = nos muestra el contenido del archivo
 git cheackout main = nos posiciona dentro de la rama que nosotros le indiquemos
 git merge ramax = nos trae los cambios, a la rama en la que estamos posicionados, de la rama que le indiquemos que traiga los cambios
 git remote add origin link = con git remote indicamos que nuestro repositorio va a estar en una nube y con add origin le indicamos el origen o en donde esta esa nube. 
+git push -u origin master = con "git push" subimos cambios a cualquier repositorio con -u creamos la rama en el repositorio y con origin especificamos de que rama de nuestro repo local se copie.
