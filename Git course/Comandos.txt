@@ -30,4 +30,8 @@ este completamente desarrollada git nos permite trabajar en una rama a parte, o 
 de una sola vez con un merge. 
 
 git branch = nos indica todas las ramas existentes y en cual nos estamos posicionando 
-git checkout -b "nombre de la nueva rama" 
+git checkout -b "nombre de la nueva rama" = crear una rama y posicionarnos en ella
+cat archivox = nos muestra el contenido del archivo
+git cheackout main = nos posiciona dentro de la rama que nosotros le indiquemos
+git merge ramax = nos trae los cambios, a la rama en la que estamos posicionados, de la rama que le indiquemos que traiga los cambios
+git remote add origin link = con git remote indicamos que nuestro repositorio va a estar en una nube y con add origin le indicamos el origen o en donde esta esa nube. 
