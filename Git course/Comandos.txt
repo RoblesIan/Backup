@@ -1,0 +1,33 @@
+configuracion de git
+git config --global user.name "Ian Robles"
+git config --global user.email robles.ian@proton.me
+git config --global core.editor "code --wait" = indica que espere a que code se cierre
+git config --global -e = nos muestra el archivo de configuracion global
+git config --global core.autocrlf input = en Win cada salto de linea equivale a cr + lf y en linux solo lf. si estamos en win ponemos el autocrlf en true y si estamos en linux en input
+git config -h = nos entrega un listado de todas las configuraciones que podemos añadir o utilizar
+ls = enlista archivos y carpetas dentro del dir que estemos
+pwd = la ruta sobre la que me encuentro
+mkdir y rmdir = crean y destruyen carpetas
+ls -a muestra archivos y directorios que se encuentran ocultos
+git status = git por defecto no le da seguimiento a ningun archivo, y con este comando podremos ver en que estado de seguimiento estan las carpetas y o archivos que se encuentran dentro
+git add = sube a etapa de stage por nombre, extencion (.py por ejemplo) o a todos si le pasamos el parametro .
+git commit -m "nombre del commit" = compromete los archivos que tengan versiones a ser modificadas pendientes (en etapa de stage) al repositorio, indicando un nombre que haga referencia a que cambio hayamos hecho.
+rm = elimina archivos pero como todo cambio es un cambio que debemos poner en stage y commitear luego. 
+git rm "nombre del archivo" = elimina el archivo sin la necesidad de tener que stagearlo y commitearlo
+git restore --staged "file" = nos restaura el archivo que estaba siendo comprometido a eliminar
+git mv archivo.a archivo.b = renombre archivo b como a 
+si creamos un archivo .gitignore le podemos especificar dentro que archivos o directorios no queremos que sean seguidos nunca, por lo cual tampoco van a aparecer como untracked cuando hagamos un git status
+git statatus -s nos enlista archivos y directorios con una letra detras de ellos que hace referencia a en que estado estan, con color tambien. 
+git diff = nos muestra todos los cambios en texto que se hayan realizado y no esten en stage
+git diff --staged = nos muestra todos los cambios escritos en etapa de stage
+git log = nos muestra el historial
+git log --oneline = nos muestra el historial con el hash con el que se identifica nuestro commit
+
+Hasta ahora nosotros trabajamos de manera lineal, si realizabamos algun cambio y comprometiamos nos afectabamos solo a nosotros
+y la version del codigo era siempre la que nosotros modificabamos. Si en algun momento pretendemos trabajar en grupo, y tocar
+archivos que otros esten utilizando de forma que no los modifique hasta que la funcionalidad que nosotros estemos desarrollando
+este completamente desarrollada git nos permite trabajar en una rama a parte, o branch, y luego integrar nuestras modificaciones
+de una sola vez con un merge. 
+
+git branch = nos indica todas las ramas existentes y en cual nos estamos posicionando 
+git checkout -b "nombre de la nueva rama" 
