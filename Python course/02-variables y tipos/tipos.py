@@ -18,7 +18,7 @@ rango = range(9)
 dato_byte = b"Prueba" 
 
 # Mostrar el tipo de dato que contiene la variable
-print(type(nada))
+print(type(nothing))
 
 # convertir un tipo de dato a otro
 
